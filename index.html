@@ -1,42 +1,208 @@
-<header class="header">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<img src="logo-hkbp.png" alt="Logo HKBP">
+<title>HKBP Simanullang Matiti</title>
 
-<h1>HURIA KRISTEN BATAK PROTESTAN (HKBP)</h1>
+<style>
 
-<h2>DISTRIK III HUMBANG</h2>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-<h2>SIMANULLANG-MATITI RESSORT SIMANULLANG</h2>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.7;
+}
 
-<p>
-Jln Gereja Desa Matiti,
-Kec. Dolok Sanggul,
-Kab. Humbang Hasundutan
-</p>
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:20px;
+}
 
-<p>
-Rek Huria :
-Bank Mandiri
-107-00-79000792
-</p>
+.card{
+    background:white;
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    margin-bottom:25px;
+}
 
-<p>
-Pdt. Resort H. Nababan
-0813-6203-3973
-</p>
+.header{
+    text-align:center;
+}
 
-<div class="salam">
+.logo{
+    width:120px;
+    margin-bottom:15px;
+}
 
-Horas jala Selamat Minggu dihamu sudena,
-dipasupasu Tuhanta ma parmingguanta sadarion.
+.header h1{
+    color:#002b6b;
+    font-size:32px;
+}
 
-Laos hupasahat hami ma Selamat Ulang Tahun
-Hatutubu Dohot Ulang Tahun Pernikahan
-tu angka namarulang tahun dibagasan minggu on.
+.header h2{
+    color:#555;
+    font-size:22px;
+    margin-top:8px;
+}
 
-Angka na marsahit tumibu ma malum,
-angka namarsitaonon sai Tuhanta ma namangapuli.
+.header h3{
+    color:#555;
+    font-size:18px;
+}
+
+.info{
+    margin-top:15px;
+    font-size:15px;
+}
+
+.salam{
+    margin-top:20px;
+    background:#eef5ff;
+    border-left:5px solid #002b6b;
+    padding:15px;
+    text-align:left;
+}
+
+.section-title{
+    background:#002b6b;
+    color:white;
+    padding:12px 20px;
+    border-radius:8px;
+    font-size:22px;
+    margin-bottom:15px;
+}
+
+.menu{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.menu-card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+    text-decoration:none;
+    color:#333;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.menu-card:hover{
+    transform:translateY(-5px);
+}
+
+.menu-card h3{
+    color:#002b6b;
+    margin-bottom:10px;
+}
+
+.footer{
+    text-align:center;
+    color:#666;
+    margin-top:20px;
+    font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card header">
+
+        <img src="logo-hkbp.png" class="logo">
+
+        <h1>HURIA KRISTEN BATAK PROTESTAN</h1>
+
+        <h2>DISTRIK III HUMBANG</h2>
+
+        <h3>SIMANULLANG-MATITI RESSORT SIMANULLANG</h3>
+
+        <div class="info">
+
+            Jln Gereja Desa Matiti, Kec. Dolok Sanggul,
+            Kab. Humbang Hasundutan
+
+            <br><br>
+
+            Rek Huria :
+            Bank Mandiri 107-00-79000792
+
+            <br><br>
+
+            Pdt. Resort H. Nababan
+            0813-6203-3973
+
+        </div>
+
+        <div class="salam">
+
+            <strong>
+            Pasahathon Parhalado HKBP Simanullang Matiti
+            </strong>
+
+            <br><br>
+
+            Horas jala Selamat Minggu dihamu sudena,
+            dipasupasu Tuhanta ma parmingguanta sadarion.
+
+            Laos hupasahat hami ma Selamat Ulang Tahun
+            Hatutubu Dohot Ulang Tahun Pernikahan tu angka
+            namarulang tahun dibagasan minggu on.
+
+            Angka na marsahit tumibu ma malum,
+            angka namarsitaonon sai Tuhanta ma namangapuli.
+
+        </div>
+
+    </div>
+
+    <div class="section-title">
+        Informasi Minggu Ini
+    </div>
+
+    <div class="menu">
+
+        <a href="partording.html" class="menu-card">
+
+            <h3>📖 Partording</h3>
+
+            <p>
+            Rundown dan Tata Ibadah Minggu Ini
+            </p>
+
+        </a>
+
+        <a href="tinting.html" class="menu-card">
+
+            <h3>📄 Tinting Na Marragam</h3>
+
+            <p>
+            Warta Jemaat Minggu Ini
+            </p>
+
+        </a>
+
+    </div>
+
+    <div class="footer">
+
+        © HKBP Simanullang Matiti
+
+    </div>
 
 </div>
 
-</header>
+</body>
