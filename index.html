@@ -1,6 +1,10 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>HKBP Simanullang Matiti</title>
 
@@ -14,23 +18,21 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background:#f5f7fa;
+    background:#f4f6f9;
     color:#333;
-    line-height:1.7;
 }
 
 .container{
-    max-width:1100px;
+    max-width:1200px;
     margin:auto;
     padding:20px;
 }
 
 .card{
     background:white;
-    border-radius:12px;
+    border-radius:15px;
     padding:25px;
-    box-shadow:0 2px 10px rgba(0,0,0,.1);
-    margin-bottom:25px;
+    box-shadow:0 2px 12px rgba(0,0,0,0.1);
 }
 
 .header{
@@ -38,171 +40,197 @@ body{
 }
 
 .logo{
-    width:120px;
+    width:140px;
     margin-bottom:15px;
 }
 
 .header h1{
-    color:#002b6b;
+    color:#002B7F;
     font-size:32px;
+    margin-bottom:5px;
 }
 
 .header h2{
-    color:#555;
+    color:#444;
     font-size:22px;
-    margin-top:8px;
+    margin-bottom:5px;
 }
 
 .header h3{
-    color:#555;
-    font-size:18px;
-}
-
-.info{
-    margin-top:15px;
-    font-size:15px;
-}
-
-.salam{
-    margin-top:20px;
-    background:#eef5ff;
-    border-left:5px solid #002b6b;
-    padding:15px;
-    text-align:left;
-}
-
-.section-title{
-    background:#002b6b;
-    color:white;
-    padding:12px 20px;
-    border-radius:8px;
-    font-size:22px;
+    color:#444;
+    font-size:20px;
     margin-bottom:15px;
 }
 
-.menu{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
-}
-
-.menu-card{
-    background:white;
-    padding:25px;
-    border-radius:12px;
-    text-align:center;
-    text-decoration:none;
-    color:#333;
-    box-shadow:0 2px 10px rgba(0,0,0,.1);
-    transition:.3s;
-}
-
-.menu-card:hover{
-    transform:translateY(-5px);
-}
-
-.menu-card h3{
-    color:#002b6b;
+.address{
+    font-size:15px;
     margin-bottom:10px;
+}
+
+.bank{
+    font-size:15px;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+.contact{
+    font-size:15px;
+    margin-bottom:20px;
+}
+
+.salam{
+    text-align:left;
+    background:#eef4ff;
+    border-left:5px solid #002B7F;
+    padding:18px;
+    border-radius:8px;
+    margin-top:15px;
+    line-height:1.8;
+}
+
+.salam-title{
+    font-weight:bold;
+    color:#002B7F;
+    margin-bottom:10px;
+}
+
+.section-title{
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:20px;
+    color:#002B7F;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.pdf-container{
+    margin-top:20px;
+}
+
+.pdf-frame{
+    width:100%;
+    height:1800px;
+    border:none;
+    border-radius:12px;
+    background:white;
+    box-shadow:0 2px 12px rgba(0,0,0,0.1);
 }
 
 .footer{
     text-align:center;
-    color:#666;
     margin-top:20px;
+    color:#666;
     font-size:14px;
 }
 
+@media(max-width:768px){
+
+    .logo{
+        width:100px;
+    }
+
+    .header h1{
+        font-size:22px;
+    }
+
+    .header h2{
+        font-size:18px;
+    }
+
+    .header h3{
+        font-size:16px;
+    }
+
+    .pdf-frame{
+        height:1200px;
+    }
+
+}
+
 </style>
+
 </head>
 
 <body>
 
 <div class="container">
 
-    <div class="card header">
+```
+<div class="card">
 
-        <img src="logo-hkbp.png" class="logo">
+    <div class="header">
 
-        <h1>HURIA KRISTEN BATAK PROTESTAN</h1>
+        <img src="logo-hkbp.png" class="logo" alt="Logo HKBP">
+
+        <h1>HURIA KRISTEN BATAK PROTESTAN (HKBP)</h1>
 
         <h2>DISTRIK III HUMBANG</h2>
 
         <h3>SIMANULLANG-MATITI RESSORT SIMANULLANG</h3>
 
-        <div class="info">
-
+        <div class="address">
             Jln Gereja Desa Matiti, Kec. Dolok Sanggul,
             Kab. Humbang Hasundutan
+        </div>
 
-            <br><br>
-
+        <div class="bank">
             Rek Huria :
-            Bank Mandiri 107-00-79000792
+            Gereja HKBP Simanullang
+            <br>
+            Bank Mandiri No. 107-00-79000792
+        </div>
 
-            <br><br>
-
+        <div class="contact">
             Pdt. Resort H. Nababan
+            <br>
             0813-6203-3973
-
         </div>
 
-        <div class="salam">
+    </div>
 
-            <strong>
+    <div class="salam">
+
+        <div class="salam-title">
             Pasahathon Parhalado HKBP Simanullang Matiti
-            </strong>
-
-            <br><br>
-
-            Horas jala Selamat Minggu dihamu sudena,
-            dipasupasu Tuhanta ma parmingguanta sadarion.
-
-            Laos hupasahat hami ma Selamat Ulang Tahun
-            Hatutubu Dohot Ulang Tahun Pernikahan tu angka
-            namarulang tahun dibagasan minggu on.
-
-            Angka na marsahit tumibu ma malum,
-            angka namarsitaonon sai Tuhanta ma namangapuli.
-
         </div>
 
-    </div>
+        Horas jala Selamat Minggu dihamu sudena,
+        dipasupasu Tuhanta ma parmingguanta sadarion.
 
-    <div class="section-title">
-        Informasi Minggu Ini
-    </div>
+        Laos hupasahat hami ma Selamat Ulang Tahun Hatutubu
+        dohot Ulang Tahun Pernikahan tu angka namarulang tahun
+        dibagasan minggu on.
 
-    <div class="menu">
+        Ganjang ma umur muna dibagasan hahipason.
 
-        <a href="partording.html" class="menu-card">
+        Angka na marsahit tumibu ma malum.
 
-            <h3>📖 Partording</h3>
-
-            <p>
-            Rundown dan Tata Ibadah Minggu Ini
-            </p>
-
-        </a>
-
-        <a href="tinting.html" class="menu-card">
-
-            <h3>📄 Tinting Na Marragam</h3>
-
-            <p>
-            Warta Jemaat Minggu Ini
-            </p>
-
-        </a>
-
-    </div>
-
-    <div class="footer">
-
-        © HKBP Simanullang Matiti
+        Angka namarsitaonon sai Tuhanta ma namangapuli.
 
     </div>
 
 </div>
 
+<div class="section-title">
+    Partording & Tinting Minggu Ini
+</div>
+
+<div class="pdf-container">
+
+    <iframe
+        src="warta.pdf"
+        class="pdf-frame">
+    </iframe>
+
+</div>
+
+<div class="footer">
+    © HKBP Simanullang Matiti
+</div>
+```
+
+</div>
+
 </body>
+
+</html>
