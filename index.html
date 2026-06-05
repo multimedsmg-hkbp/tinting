@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="id">
 
 <head>
@@ -103,14 +102,13 @@ body{
     font-weight:bold;
 }
 
-.pdf-container{
+.warta-container{
     margin-top:20px;
 }
 
-.pdf-frame{
+.warta-image{
     width:100%;
-    height:1800px;
-    border:none;
+    display:block;
     border-radius:12px;
     background:white;
     box-shadow:0 2px 12px rgba(0,0,0,0.1);
@@ -121,30 +119,48 @@ body{
     margin-top:20px;
     color:#666;
     font-size:14px;
+    padding-bottom:20px;
 }
 
 @media(max-width:768px){
+
+    .container{
+        padding:10px;
+    }
+
+    .card{
+        padding:15px;
+    }
 
     .logo{
         width:100px;
     }
 
     .header h1{
-        font-size:22px;
+        font-size:20px;
     }
 
     .header h2{
-        font-size:18px;
-    }
-
-    .header h3{
         font-size:16px;
     }
 
-    .pdf-frame{
-        height:1200px;
+    .header h3{
+        font-size:15px;
     }
 
+    .address,
+    .bank,
+    .contact{
+        font-size:13px;
+    }
+
+    .section-title{
+        font-size:22px;
+    }
+
+    .salam{
+        font-size:14px;
+    }
 }
 
 </style>
@@ -155,82 +171,80 @@ body{
 
 <div class="container">
 
-```
-<div class="card">
+    <div class="card">
 
-    <div class="header">
+        <div class="header">
 
-        <img src="logo-hkbp.png" class="logo" alt="Logo HKBP">
+            <img src="logo-hkbp.png" class="logo" alt="Logo HKBP">
 
-        <h1>HURIA KRISTEN BATAK PROTESTAN (HKBP)</h1>
+            <h1>HURIA KRISTEN BATAK PROTESTAN (HKBP)</h1>
 
-        <h2>DISTRIK III HUMBANG</h2>
+            <h2>DISTRIK III HUMBANG</h2>
 
-        <h3>SIMANULLANG-MATITI RESSORT SIMANULLANG</h3>
+            <h3>SIMANULLANG-MATITI RESSORT SIMANULLANG</h3>
 
-        <div class="address">
-            Jln Gereja Desa Matiti, Kec. Dolok Sanggul,
-            Kab. Humbang Hasundutan
+            <div class="address">
+                Jln Gereja Desa Matiti, Kec. Dolok Sanggul,
+                Kab. Humbang Hasundutan
+            </div>
+
+            <div class="bank">
+                Rek Huria : Gereja HKBP Simanullang<br>
+                Bank Mandiri No. 107-00-79000792
+            </div>
+
+            <div class="contact">
+                Pdt. Resort H. Nababan<br>
+                0813-6203-3973
+            </div>
+
         </div>
 
-        <div class="bank">
-            Rek Huria :
-            Gereja HKBP Simanullang
-            <br>
-            Bank Mandiri No. 107-00-79000792
-        </div>
+        <div class="salam">
 
-        <div class="contact">
-            Pdt. Resort H. Nababan
-            <br>
-            0813-6203-3973
+            <div class="salam-title">
+                Parhalado HKBP Simanullang Matiti Pasahathon
+            </div>
+
+            Horas jala Selamat Minggu dihamu sudena,
+            dipasupasu Tuhanta ma parmingguanta sadarion.
+            <br><br>
+
+            Laos hupasahat hami ma Selamat Ulang Tahun Hatutubu
+            dohot Ulang Tahun Pernikahan tu angka namarulang tahun
+            dibagasan minggu on.
+            <br><br>
+
+            Ganjang ma umur muna dibagasan hahipason.
+            <br><br>
+
+            Angka na marsahit tumibu ma malum.
+            <br><br>
+
+            Angka namarsitaonon sai Tuhanta ma namangapuli.
+
         </div>
 
     </div>
 
-    <div class="salam">
+    <div class="section-title">
+        Partording ni Parmingguon & Tinting Na Marragam
+    </div>
 
-        <div class="salam-title">
-            Parhalado HKBP Simanullang Matiti Pasahathon
-        </div>
+    <div class="warta-container">
 
-        Horas jala Selamat Minggu dihamu sudena,
-        dipasupasu Tuhanta ma parmingguanta sadarion.
-
-        Laos hupasahat hami ma Selamat Ulang Tahun Hatutubu
-        dohot Ulang Tahun Pernikahan tu angka namarulang tahun
-        dibagasan minggu on.
-
-        Ganjang ma umur muna dibagasan hahipason.
-
-        Angka na marsahit tumibu ma malum.
-
-        Angka namarsitaonon sai Tuhanta ma namangapuli.
+        <img
+            src="tinting-1.png"
+            alt="Partording dan Tinting Minggu Ini"
+            class="warta-image">
 
     </div>
 
-</div>
-
-<div class="section-title">
-    Partording ni parmingguon & Tinting na marragam
-</div>
-
-<div class="pdf-container">
-
-    <iframe
-        src="tinting.pdf"
-        class="pdf-frame">
-    </iframe>
-
-</div>
-
-<div class="footer">
-    © HKBP Simanullang Matiti
-</div>
-```
+    <div class="footer">
+        © HKBP Simanullang Matiti
+    </div>
 
 </div>
 
 </body>
-
 </html>
